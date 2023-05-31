@@ -1,3 +1,5 @@
+import { MyDate } from './@types';
+
 const months = [
   'Jan',
   'Feb',
@@ -13,21 +15,9 @@ const months = [
   'Dec',
 ];
 
-interface MyDate {
-  originalDate: string;
-  date: number;
-  month: number; // JS months are zero-based index
-  currentDateWeekNumber: number;
-  totalWeeksInTheMonth: number;
-  year: number;
-  hour: number | undefined;
-  minute: number | undefined;
-  seconds: number | undefined;
-}
-
 export class FormatUTC {
-  today: MyDate;
-  calendarDate: MyDate;
+  private today: MyDate;
+  private calendarDate: MyDate;
 
   constructor(dateString?: string) {
     const today = this.parseDate(new Date().toISOString());
