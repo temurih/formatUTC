@@ -27,7 +27,7 @@ jobs:
 
       - name: Publish package on NPM 📦
         run: |
-          echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+          npm set //npm.pkg.github.com/:_authToken $NPM_TOKEN
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
