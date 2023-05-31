@@ -1,0 +1,24 @@
+{
+  "name": "format-utc",
+  "version": "1.0.0",
+  "description": "Format UTC (ISO) Dates",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temurih/formatUTC.git"
+  },
+  "keywords": [
+    "format",
+    "utc",
+    "dates"
+  ],
+  "author": "Hafiz Temuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temurih/formatUTC/issues"
+  },
+  "homepage": "https://github.com/temurih/formatUTC#readme"
+}
