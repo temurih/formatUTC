@@ -2,9 +2,13 @@
   "name": "format-utc",
   "version": "1.0.6",
   "description": "Format UTC (ISO) Dates",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.2"
   },
   "repository": {
     "type": "git",
@@ -16,7 +20,7 @@
     "dates"
   ],
   "author": "Hafiz Temuri",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/temurih/formatUTC/issues"
   },
