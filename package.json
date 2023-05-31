@@ -1,6 +1,6 @@
 {
   "name": "format-utc",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Format UTC (ISO) Dates",
   "main": "src/index.ts",
   "scripts": {
